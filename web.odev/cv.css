@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: center;
+    direction: ltr;
+}
+
+.content {
+    margin-top: auto;
+    max-width: 1400px;
+}
+
+.row {
+    padding: 50px;
+}
+
+
+
+.card {
+    background-color: white;
+    color: grey;
+
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: #ccc;
+    height: 1000px;
+}
+
+.alahly h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(30, 62, 107);
+    text-decoration: underline;
+}
+
+
+
+.alahly {
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 1px;
+    text-indent: 10px;
+    line-height: 2;
+    word-spacing: 3px;
+
+
+}
+
+img {
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 20px;
+    transition: 0.5s;
+
+}
+
+.imgs {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.alahly h3 {
+    color: rgb(214, 78, 105);
+    text-transform: uppercase;
+}

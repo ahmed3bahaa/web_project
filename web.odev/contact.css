@@ -1,0 +1,77 @@
+body {
+    background-color: #ccc;
+}
+
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 636px) {
+    .contact .content {
+        flex-direction: column;
+    }
+}
+
+.contact .content form {
+    flex-basis: 70%;
+
+}
+
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 120%;
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.contact .content form input[type="reset"] {
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(18, 2, 2);
+}
+
+.H {
+    color: rgb(102, 42, 151)
+}
